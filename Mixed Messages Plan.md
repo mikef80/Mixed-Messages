@@ -11,12 +11,17 @@
     * Maybe use multiple options of sentence construction for variety.
 
 ## Steps required (no particular order at this time)
-* Create collections of types of words based off CSV files.
+* Create collections of types of words of specific types:
     * **KEEP INITIAL LIST SMALL AND MANAGEABLE. ONLY SCALE ONCE MODEL IS WORKING**
     * Download for files is https://www.wordexample.com/list/most-common-adjectives-english
-    * ***adjectives*** in link above can be changes for verbs, nouns etc
-* Create standard sentence format
+        * Downloads are in a CSV format.
+        * ***adjectives*** in link above can be changes for verbs, nouns etc.
+* Create standard sentence format:
     * Use random number generator (RNG) to pick this template in script.
     * This can be an object.
+        * Maybe create multiple outputs via a user selection in the beginning, so potential for multiple objects.
 * Use RNG to pick relevant words for sentences.
-* Output to screen
+* Output to screen.
+* Inputs
+* Outputs
+* Risks/opportunities
