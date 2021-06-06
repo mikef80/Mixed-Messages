@@ -12,8 +12,9 @@
 
 ## Steps required (no particular order at this time)
 * Create collections of types of words based off CSV files.
+    * **KEEP INITIAL LIST SMALL AND MANAGEABLE. ONLY SCALE ONCE MODEL IS WORKING**
     * Download for files is https://www.wordexample.com/list/most-common-adjectives-english
-    * "adjectives" in link above can be changes for verbs, nouns etc
+    * ***adjectives*** in link above can be changes for verbs, nouns etc
 * Create standard sentence format
     * Use random number generator (RNG) to pick this template in script.
     * This can be an object.
