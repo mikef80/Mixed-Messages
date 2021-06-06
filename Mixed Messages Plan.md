@@ -5,7 +5,7 @@
     * Initially use a small collection of words to prove concept then expand wordset to allow for variety.
 
 ## Plan your project
-* Project will be build in node.js
+* Project will be build in [node.js](https://nodejs.org/en/)
 * It will run on the command line with no user input initially.
 * It will use repositories of verbs, nouns, adjectives etc to create sentences against a pre-defined construction criteria.
     * Maybe use multiple options of sentence construction for variety.
