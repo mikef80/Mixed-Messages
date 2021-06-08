@@ -1,10 +1,33 @@
-let planet = ['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune'];
-let sign = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
-let house = ['first','second','third','fourth','fifth','sixth','seventh','eigth','ninth','tenth','eleventh','twelfth'];
+// data source
+const source = {
+planet : ['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune'],
+sign : ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'],
+house : ['first','second','third','fourth','fifth','sixth','seventh','eigth','ninth','tenth','eleventh','twelfth']
+};
 
-const RNG = () => {
-    return Math.floor(Math.random() * 5);
+//random number generator
+const RNG = l => {
+    return Math.floor(Math.random() * l);
 }
 
-//console.log(`${word1[RNG()]}, how's your ${word2[RNG()]}? I heard you bought a new ${word3[RNG()]}.`);
-console.log(`With ${planet[RNG()]} rising in the ${house[RNG()]} house, you are about to embark on an important journey. ${sign[RNG()]} holds influence over you on this path.`);
+//console.log(source['planet'][RNG(source['planet'].length)]);
+
+// create output object
+
+const OP = (p, s, h) => {
+    p : p;
+    s : s;
+    h : h;
+}
+
+
+
+// for loop iterating over source
+for (item in source) {
+    let i = RNG(source[item].length);
+
+    /*console.log('source length: ' + source[item].length);
+    console.log('item: ' + item);
+    console.log('i=' + i);
+    console.log('value: ' + source[item][i]);*/
+}
