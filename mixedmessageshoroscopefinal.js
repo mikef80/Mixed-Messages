@@ -25,7 +25,7 @@ function opFactory(planet, sign, house, luck, freebie) {
             console.log(`        *`);
             console.log(`        **`);
             console.log(`***********`);
-            console.log(`************ ${this.planet} is transitioning across ${this.sign}, soon to rise in the ${this.house} house, bringing you ${this.luck} luck and also ${this.freebie}. ***`);
+            console.log(`************ ${this.planet} is transitioning across ${this.sign}, soon to rise in the ${this.house} house, bringing you ${this.luck} luck and ${this.freebie}. ***`);
             console.log(`***********`);
             console.log(`        **`);
             console.log(`        *`);
